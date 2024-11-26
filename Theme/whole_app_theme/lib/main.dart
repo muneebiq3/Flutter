@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        brightness: Brightness.dark,
+        // brightness: Brightness.dark,
         primaryColor: Colors.green,
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.blue,
           secondary: Colors.white,
-          brightness: Brightness.dark
+          // brightness: Brightness.dark
         ),
         useMaterial3: true,
         fontFamily: 'Georgia',
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       ),
       darkTheme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue, brightness: Brightness.dark)
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellow, brightness: Brightness.dark)
       ),
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
