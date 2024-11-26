@@ -11,7 +11,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -40,7 +39,7 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => AnimatedContainerPage(),
+                    builder: (context) => const AnimatedContainerPage(),
                   ),
                 );
               },
@@ -51,7 +50,7 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => OpacityAnimationPage(),
+                    builder: (context) => const OpacityAnimationPage(),
                   ),
                 );
               },
@@ -62,7 +61,7 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => HeroAnimationPage(),
+                    builder: (context) => const HeroAnimationPage(),
                   ),
                 );
               },
